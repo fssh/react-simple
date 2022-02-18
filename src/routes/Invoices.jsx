@@ -47,7 +47,7 @@ react router 提供了 useSearchParams 用于读取和操作搜索参数。它�
 						return name.startsWith(filter.toLowerCase());
 					})
 					.map(invoice => {
-						{/*NavLink比Link强点儿，用NavLink可以在style和className里拿到isActive，这样可以改样式*/ }
+						//NavLink比Link强点儿，用NavLink可以在style和className里拿到isActive，这样可以改样式
 						return (
 							<QueryNavLink
 								style={({ isActive }) => {

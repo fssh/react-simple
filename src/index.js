@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.less';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Expenses from './routes/Expenses';
 import Invoices from './routes/Invoices';
 import Invoice from './routes/Invoice';
+import 'antd/dist/antd.css';//引入antd的样式
 
 ReactDOM.render(
   <React.StrictMode>
