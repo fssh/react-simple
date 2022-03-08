@@ -17,12 +17,6 @@ export default function App(props) {
  }
   return (
     <div {...appProps}>
-      <h1>路由测试</h1>
-      <nav {...navProps}>
-        <Link to="/invoices">Invoices</Link>&nbsp;|&nbsp;
-        <Link to="/expenses">Expenses</Link>
-      </nav>
-
       <Menu
         style={{ width: 256,height:'100%',display:'inline-block' }}
         defaultSelectedKeys={['1']}
